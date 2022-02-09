@@ -29,7 +29,8 @@ public class GridIllumination2 {
     }
 
     /*
-     * 1 <= n <= 109
+     * 这里指出了n的值可能会很大
+     * 1 <= n <= 10^9
      * 0 <= lamps.length <= 20000
      * 0 <= queries.length <= 20000
      * lamps[i].length == 2
@@ -106,7 +107,7 @@ public class GridIllumination2 {
         else hashMap.put(a, hashMap.get(a) - 1);
     }
 
-    // 转为哈希值后可能会超过Integer的范围
+    // 转为哈希值后可能会超过Integer的范围, 所以要用long的类型
     private static Long hash(int x, int y, int n) {
         return x * (long) n + y;
     }
