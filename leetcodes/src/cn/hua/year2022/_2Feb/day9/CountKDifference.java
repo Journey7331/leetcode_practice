@@ -13,7 +13,6 @@ public class CountKDifference {
         System.out.println(countKDifference(nums, k));
     }
 
-
     // 用hash存储计数也可以
     // 因为是边存入边查询的, 不会重复查询, 所以不需要除以二
     public static int countKDifference(int[] nums, int k) {
