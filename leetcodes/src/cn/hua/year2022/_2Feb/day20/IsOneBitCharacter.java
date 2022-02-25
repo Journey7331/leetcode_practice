@@ -34,9 +34,6 @@ public class IsOneBitCharacter {
         return (cnt % 2 == 0);
     }
 
-
-
-
     // 正向模拟
     // (10)/(11)是成对出现的
     // 0 ms, 40.7 MB
