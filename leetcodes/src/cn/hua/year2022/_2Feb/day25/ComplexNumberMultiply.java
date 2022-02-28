@@ -2,6 +2,7 @@ package cn.hua.year2022._2Feb.day25;
 
 // 537. 复数乘法
 // 简单题
+// 简单模拟
 public class ComplexNumberMultiply {
 
     public static void main(String[] args) {
