@@ -1,6 +1,6 @@
 package cn.hua._utils;
 
-import cn.hua.year2021._3march.data.ListNode;
+import cn.hua.data.ListNode;
 
 public class LNode {
 

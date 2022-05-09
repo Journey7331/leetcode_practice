@@ -1,7 +1,7 @@
 package cn.hua.all.question2;
 
 import cn.hua._utils.LNode;
-import cn.hua.year2021._3march.data.ListNode;
+import cn.hua.data.ListNode;
 
 // 2. 两数相加
 // 中等题

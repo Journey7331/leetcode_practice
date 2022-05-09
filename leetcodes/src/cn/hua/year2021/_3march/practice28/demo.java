@@ -1,6 +1,6 @@
 package cn.hua.year2021._3march.practice28;
 // 173. 二叉搜索树迭代器
-import cn.hua.year2021._3march.data.TreeNode;
+import cn.hua.data.TreeNode;
 
 public class demo {
 

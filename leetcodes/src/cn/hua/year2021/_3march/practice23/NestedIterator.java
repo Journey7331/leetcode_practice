@@ -1,5 +1,6 @@
 package cn.hua.year2021._3march.practice23;
 // 341. 扁平化嵌套列表迭代器
+// 中等题
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

@@ -1,4 +1,4 @@
-package cn.hua.year2021._3march.data;
+package cn.hua.data;
 
 public class TreeNode {
     public int val;

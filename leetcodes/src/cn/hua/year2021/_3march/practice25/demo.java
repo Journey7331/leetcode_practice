@@ -1,6 +1,6 @@
 package cn.hua.year2021._3march.practice25;
 // 82. 删除排序链表中的重复元素 II
-import cn.hua.year2021._3march.data.ListNode;
+import cn.hua.data.ListNode;
 
 public class demo {
 

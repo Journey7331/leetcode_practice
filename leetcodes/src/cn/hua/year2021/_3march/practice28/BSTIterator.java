@@ -18,7 +18,7 @@ package cn.hua.year2021._3march.practice28;
 * 从上到下空间复杂度越低
 * */
 
-import cn.hua.year2021._3march.data.TreeNode;
+import cn.hua.data.TreeNode;
 
 import java.util.ArrayList;
 

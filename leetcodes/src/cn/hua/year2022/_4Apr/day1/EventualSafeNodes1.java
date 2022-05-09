@@ -8,6 +8,14 @@ import java.util.*;
 // 存图方式：邻接表（链式前向星存图）
 public class EventualSafeNodes1 {
 
+    /*
+     * 图论拓扑排序入门
+     * https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247489706&idx=1&sn=771cd807f39d1ca545640c0ef7e5baec
+     *
+     * 【最短路/必背模板】涵盖所有的「存图方式」与「最短路算法（详尽注释）」
+     * https://mp.weixin.qq.com/s?__biz=MzU4NDE3MTEyMA==&mid=2247488007&idx=1&sn=9d0dcfdf475168d26a5a4bd6fcd3505d&chksm=fd9cb918caeb300e1c8844583db5c5318a89e60d8d552747ff8c2256910d32acd9013c93058f&token=1711035050&lang=zh_CN&scene=21#wechat_redirect
+     * */
+
     public static void main(String[] args) {
         int[][] graph = {
                 {1, 2}, {2, 3}, {5}, {0}, {5}, {}, {}
@@ -55,19 +63,19 @@ public class EventualSafeNodes1 {
 
         Deque<Integer> deque = new ArrayDeque<>();
         for (int i = 0; i < n; i++) {
-            if(cnts[i] == 0) deque.addLast(i);
+            if (cnts[i] == 0) deque.addLast(i);
         }
         while (!deque.isEmpty()) {
             int poll = deque.pollFirst();
             for (int i = he[poll]; i != -1; i = ne[i]) {
                 int j = e[i];
-                if(--cnts[j] == 0) deque.addLast(j);
+                if (--cnts[j] == 0) deque.addLast(j);
             }
         }
 
         List<Integer> ans = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            if(cnts[i] == 0) ans.add(i);
+            if (cnts[i] == 0) ans.add(i);
         }
         return ans;
 

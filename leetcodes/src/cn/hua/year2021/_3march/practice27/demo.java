@@ -1,6 +1,6 @@
 package cn.hua.year2021._3march.practice27;
 // 61. 旋转链表
-import cn.hua.year2021._3march.data.ListNode;
+import cn.hua.data.ListNode;
 
 public class demo {
 

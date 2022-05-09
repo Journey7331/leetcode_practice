@@ -1,6 +1,6 @@
 package cn.hua.year2021._3march.practice18;
 // 92. 反转链表 II
-import cn.hua.year2021._3march.data.ListNode;
+import cn.hua.data.ListNode;
 
 /*
  * 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
